@@ -12,23 +12,23 @@ app.controller('StarWarsController', ['$http', function ($http){
             description: 'Luke description here'
         },
         {
-            image: 'images/luke-skywalker.jpeg',
+            image: 'images/han-solo.jpeg',
             description: 'Luke description here'
         },
         {
-            image: 'images/luke-skywalker.jpeg',
+            image: 'images/leia.jpeg',
             description: 'Luke description here'
         },
         {
-            image: 'images/luke-skywalker.jpeg',
+            image: 'images/chewie.jpeg',
             description: 'Luke description here'
         },
         {
-            image: 'images/luke-skywalker.jpeg',
+            image: 'images/boba-fett.jpeg',
             description: 'Luke description here'
         },
         {
-            image: 'images/luke-skywalker.jpeg',
+            image: 'images/anakin.jpeg',
             description: 'Luke description here'
         }
     ];

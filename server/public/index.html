@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Star Wars Gallery</title>
+    <title>FarFarAwayDating.com</title>
     <link rel="stylesheet" href="vendors/bootstrap.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="vendors/angular.js"></script>
@@ -12,13 +12,14 @@
 </head>
 <body ng-app="StarWarsApp" ng-controller="StarWarsController as vm">
     <div class="container">
-        <h1>Star Wars Gallery</h1>
+        <h1>FarFarAwayDating.com</h1>
         <div class="container-fluid">
             <div class="row">
                 <div id="profile-div" ng-repeat="profile in vm.profileArray">
                     <div class="col-sm-4 profile-container">
-                        <div class="profile-inner-container">
+                        <div class="profile-inner-container img-div">
                             <img ng-src="{{profile.image}}" class="img-responsive center-block">
+                            <!-- <p>{{profile.description}}</p> -->
                         </div>
                         <div class="profile-inner-container">
                             <button type="button" class="btn btn-lg btn-primary">Doesn't suck</button>
