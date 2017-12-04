@@ -6,7 +6,7 @@ var profilesArray = [
     {
         image: 'images/luke-skywalker.jpeg',
         name: 'Luke Skywalker',
-        bio: "Likes: power converters, the Force, bullseyeing womp rats in my T-16 back home. Dislikes: moisture farming, the empire, my dad."
+        bio: "Likes: power converters, the Force, bullseyeing womp rats in my T-16 back home. Dislikes: moisture farming, the empire."
     },
     {
         image: 'images/han-solo.jpeg',
