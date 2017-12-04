@@ -15,7 +15,7 @@
         <h1>FarFarAwayDating.com</h1>
         <div class="container-fluid">
             <div class="row">
-                <div id="profile-div" ng-repeat="profile in vm.getProfiles">
+                <div id="profile-div" ng-repeat="profile in vm.profilesArray">
                     <div class="col-sm-4 profile-container">
                         <div class="profile-inner-container img-div">
                             <img ng-src="{{profile.image}}" class="img-responsive center-block">
@@ -31,41 +31,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col-sm-3 profile-container">
-                <div class="profile-inner-container">
-                    <img src="images/luke-skywalker.jpeg" class="img-responsive center-block">
-                </div>
-                <div class="profile-inner-container">
-                    <button type="button" class="btn btn-lg btn-primary">Doesn't suck</button>
-                </div>
-                <div class="profile-inner-container">
-                    <span>X people think this doesn't suck</span>
-                </div>
-            </div>
-            <div class="col-sm-3 profile-container">
-                <div class="profile-inner-container">
-                    <img src="images/luke-skywalker.jpeg" class="img-responsive center-block">
-                </div>
-                <div class="profile-inner-container">
-                    <button type="button" class="btn btn-lg btn-primary">Doesn't suck</button>
-                </div>
-                <div class="profile-inner-container">
-                    <span>X people think this doesn't suck</span>
-                </div>
-            </div>
-            <div class="col-sm-3 profile-container">
-                <div class="profile-inner-container">
-                    <img src="images/luke-skywalker.jpeg" class="img-responsive center-block">
-                </div>
-                <div class="profile-inner-container">
-                    <button type="button" class="btn btn-lg btn-primary">Doesn't suck</button>
-                </div>
-                <div class="profile-inner-container">
-                    <span>X people think this doesn't suck</span>
-                </div>
-            </div>
-        </div> -->
     </div>
 </body>
 </html>

@@ -17,4 +17,6 @@ app.controller('StarWarsController', ['$http', function ($http){
             self.profilesArray = response.data;
         });
     }
+
+    self.getProfiles();
 }]);
