@@ -23,9 +23,10 @@ img {
 h1 {
     color: #feda4a;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 500%;
+    font-size: 7vw;
     font-weight: 600;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 body {

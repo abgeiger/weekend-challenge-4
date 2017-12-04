@@ -12,31 +12,34 @@
 </head>
 <body ng-app="StarWarsApp" ng-controller="StarWarsController as vm">
     <div class="container">
-        <h1>FarFarAwayDating.com</h1>
-        <div class="container-fluid">
-            <div class="row">
-                <div id="profile-div" ng-repeat="profile in vm.profilesArray">
-                    <div class="col-sm-4 profile-container">
-                        <div ng-click="vm.flipOver(profile)" class="profile-inner-container img-div">
-                            <img ng-src="{{profile.image}}" ng-hide="profile.textUp" class="img-responsive center-block">
-                            <div ng-show="profile.textUp">
-                                <p>Name: {{profile.name}}</p>
-                                <p>Bio: {{profile.bio}}</p>
-                            </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>FarFarAwayDating.com</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="profile-div" ng-repeat="profile in vm.profilesArray">
+                <div class="col-sm-4 profile-container">
+                    <div ng-click="vm.flipOver(profile)" class="profile-inner-container img-div">
+                        <img ng-src="{{profile.image}}" ng-hide="profile.textUp" class="img-responsive center-block">
+                        <div ng-show="profile.textUp">
+                            <p>Name: {{profile.name}}</p>
+                            <p>Bio: {{profile.bio}}</p>
                         </div>
-                        <div class="profile-inner-container">
-                            <button ng-click="vm.addLookinGood(profile)" type="button" class="btn btn-lg btn-primary">Lookin' Good!</button>
-                        </div>
-                        <div class="profile-inner-container">
-                            <p ng-hide="profile.lookinGood">Lookin' Goods: 0</p>
-                            <p ng-show="profile.lookinGood">Lookin' Goods: {{profile.lookinGood}}</p>
-                            <p ng-hide="profile.viewed">Viewed: 0</p>
-                            <p ng-show="profile.viewed">Viewed: {{profile.viewed}}</p>
-                        </div>
+                    </div>
+                    <div class="profile-inner-container">
+                        <button ng-click="vm.addLookinGood(profile)" type="button" class="btn btn-lg btn-primary">Lookin' Good!</button>
+                    </div>
+                    <div class="profile-inner-container">
+                        <p ng-hide="profile.lookinGood">Lookin' Goods: 0</p>
+                        <p ng-show="profile.lookinGood">Lookin' Goods: {{profile.lookinGood}}</p>
+                        <p ng-hide="profile.viewed">Viewed: 0</p>
+                        <p ng-show="profile.viewed">Viewed: {{profile.viewed}}</p>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 </body>
 </html>
